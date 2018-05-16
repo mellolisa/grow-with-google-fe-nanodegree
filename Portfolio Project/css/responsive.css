@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+
+  ul {
+    display:block;
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+  }
+
+  .header h3 {
+    font-size: 1.5em;
+  }
+
+  .hero {
+    background-image: url(../img/bridge.jpg);
+    min-height: 475px;
+  }
+
+  .project__img{
+    border: 5px solid #FCEADE;
+  }
+
+}
+
+@media screen and (min-width: 990px) {
+  body{
+    width:100%;
+    margin:auto;
+  }
+
+  .project__img{
+    max-height: 100px;
+  }
+}
